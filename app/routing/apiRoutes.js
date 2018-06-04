@@ -8,14 +8,12 @@ module.exports = function(app){
   
     app.post('/api/friends', function(req,res){
       var user = req.body;
-      console.log(user);
       var scoresDifferenceArray = [];
       var friendMatchIndex;
       var friendMatch;
 
       match.scoresDifferenceCheck(user, friendsList, scoresDifferenceArray);
       friendMatchIndex = scoresDifferenceArray.indexOf(Math.min(...scoresDifferenceArray));
-      console.log(scoresDifferenceArray);
       friendMatch = friendsList[friendMatchIndex];
       res.json(friendMatch);
     });

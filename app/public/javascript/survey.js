@@ -2,7 +2,6 @@ var form = {
 
     postInput: function(currentURL, currentUserInput){
         $.post(currentURL + "/api/friends", currentUserInput, function(data) {
-            console.log(data);
             $("#matchName").text(data.name);
             $("#matchPic").attr("src", data.photo);
             $('#newFriendModal').modal();
@@ -23,7 +22,6 @@ var form = {
 
 $("#form-submit").on("click", function() {
     event.preventDefault();
-    console.log(form.isFormValid('.form-select'));
     if(form.isFormValid('.form-select') === true){
         var currentURL = window.location.origin;
         var currentUserInput = {
