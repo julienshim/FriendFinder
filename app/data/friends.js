@@ -1,7 +1,7 @@
 var friendsList = [
     {
         "name":"Maureen",
-        "photo":"../images/maureen.jpg",
+        "photo":"images/maureen.jpg",
         "scores":[
             4,
             4,
@@ -17,7 +17,7 @@ var friendsList = [
       },
       {
         "name":"Sigmund",
-        "photo":"../images/sigmund.jpg",
+        "photo":"images/sigmund.jpg",
         "scores":[
             1,
             1,
@@ -33,7 +33,7 @@ var friendsList = [
       },
       {
         "name":"Toriano",
-        "photo":"../images/toriano.jpg",
+        "photo":"images/toriano.jpg",
         "scores":[
             5,
             5,
@@ -49,7 +49,7 @@ var friendsList = [
       },
       {
         "name":"Jermaine",
-        "photo":"../images/jermaine.jpg",
+        "photo":"images/jermaine.jpg",
         "scores":[
             5,
             1,
@@ -65,7 +65,7 @@ var friendsList = [
       },
       {
         "name":"LaToya",
-        "photo":"../images/latoya.jpg",
+        "photo":"images/latoya.jpg",
         "scores":[
             1,
             5,
@@ -81,7 +81,7 @@ var friendsList = [
       },
       {
         "name":"Marlon",
-        "photo":"../images/marlon.jpg",
+        "photo":"images/marlon.jpg",
         "scores":[
             5,
             4,
@@ -97,7 +97,7 @@ var friendsList = [
       },
       {
         "name":"Brandon",
-        "photo":"../images/brandon.jpg",
+        "photo":"images/brandon.jpg",
         "scores":[
             4,
             4,
@@ -113,7 +113,7 @@ var friendsList = [
       },
       {
         "name":"Michael",
-        "photo":"../images/michael.jpg",
+        "photo":"images/michael.jpg",
         "scores":[
             1,
             1,
@@ -129,7 +129,7 @@ var friendsList = [
       },
       {
         "name":"Steven",
-        "photo":"../images/steven.jpg",
+        "photo":"images/steven.jpg",
         "scores":[
             1,
             1,
@@ -145,7 +145,7 @@ var friendsList = [
       },
       {
         "name":"Janet",
-        "photo":"../images/janet.jpg",
+        "photo":"images/janet.jpg",
         "scores":[
             4,
             2,

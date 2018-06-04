@@ -1,5 +1,5 @@
 var friendsList = require('../data/friends.js');
-var match = require('../javascript/modules/match.js');
+var match = require('./javascript/modules/match.js');
 
 module.exports = function(app){
     app.get('/api/friends', function(req,res){
@@ -8,15 +8,16 @@ module.exports = function(app){
   
     app.post('/api/friends', function(req,res){
       var user = req.body;
+      console.log(user);
       var scoresDifferenceArray = [];
       var friendMatchIndex;
       var friendMatch;
-      
+
       match.scoresDifferenceCheck(user, friendsList, scoresDifferenceArray);
       friendMatchIndex = scoresDifferenceArray.indexOf(Math.min(...scoresDifferenceArray));
+      console.log(scoresDifferenceArray);
       friendMatch = friendsList[friendMatchIndex];
       res.json(friendMatch);
-
     });
   };
   
