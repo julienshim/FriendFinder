@@ -5,6 +5,7 @@ var form = {
             console.log(data);
             $("#matchName").text(data.name);
             $("#matchPic").attr("src", data.photo);
+            $('#newFriendModal').modal();
         });
     },
 
@@ -22,7 +23,8 @@ var form = {
 
 $("#form-submit").on("click", function() {
     event.preventDefault();
-    if(form.isFormValid('.form-select')){
+    console.log(form.isFormValid('.form-select'));
+    if(form.isFormValid('.form-select') === true){
         var currentURL = window.location.origin;
         var currentUserInput = {
             name: $('#nameInput').val().trim(),
@@ -42,24 +44,21 @@ $("#form-submit").on("click", function() {
             ]
         };
         form.postInput(currentURL, currentUserInput);
-        $('#newFriendModal').modal();
-        $('#nameInput').val("");
-        $('#photoInput').val("");
-        $('#q1Select').val("");
-        $('#q2Select').val("");
-        $('#q3Select').val("");
-        $('#q4Select').val("");
-        $('#q5Select').val("");
-        $('#q6Select').val("");
-        $('#q7Select').val("");
-        $('#q8Select').val("");
-        $('#q9Select').val("");
-        $('#q10Select').val("");
+        $('#nameInput').val('');
+        $('#photoInput').val('');
+        $('#q1Select').val('');
+        $('#q2Select').val('');
+        $('#q3Select').val('');
+        $('#q4Select').val('');
+        $('#q5Select').val('');
+        $('#q6Select').val('');
+        $('#q7Select').val('');
+        $('#q8Select').val('');
+        $('#q9Select').val('');
+        $('#q10Select').val('');
         
     } else {
-        console.log("Incomplete!");
-        
+       alert("Incomplete!");
+       return false;
     }
 });
-
-        
