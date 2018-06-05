@@ -12,6 +12,10 @@ Food Friend Finder was created for the Friend Finder (Node and Express Servers) 
 -npm install body-parser
 -npm install path
 
+**App Demo GIFs**
+
+<img src="https://github.com/jerauld/FriendFinder/blob/master/app/public/images/foodfriendfinder.gif?raw=true" width="600px"/>
+
 **Requirements**
 
 - The survey contains 10 uqestions. Each answer on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
