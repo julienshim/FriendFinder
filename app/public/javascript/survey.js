@@ -56,7 +56,7 @@ $("#form-submit").on("click", function() {
         $('#q10Select').val('');
         
     } else {
-       alert("Incomplete!");
+       alert("Please fill in all required fields.");
        return false;
     }
 });

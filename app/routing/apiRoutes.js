@@ -16,6 +16,7 @@ module.exports = function(app){
       friendMatchIndex = scoresDifferenceArray.indexOf(Math.min(...scoresDifferenceArray));
       friendMatch = friendsList[friendMatchIndex];
       res.json(friendMatch);
+      friendsList.push(user);
     });
   };
   

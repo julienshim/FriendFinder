@@ -1,0 +1,42 @@
+body {
+    background-color: #eee;
+}
+
+.container {
+    background-color: #fff;
+    padding: 35px 25px;
+}
+
+#form-submit {
+    margin-top: 35px;
+    width: 100%;
+}
+
+hr, #photoInput {
+    margin-bottom: 35px;
+}
+
+input[type=text], select {
+    width: 100%;
+}
+
+#matchPic {
+    width: 100%;
+}
+
+#matchName {
+    text-align: center;
+}
+
+h3 {
+    padding: 15px 0 0 0;
+    font-weight: bold;
+}
+
+.required {
+    color: #ff0000;
+}
+
+#requiredMessage {
+    margin-top: 35px;
+}
