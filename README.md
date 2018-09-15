@@ -14,7 +14,7 @@ Food Friend Finder was created for the Friend Finder (Node and Express Servers) 
 
 **App Demo GIFs**
 
-<img src="https://github.com/jerauld/FriendFinder/blob/master/app/public/images/foodfriendfinder.gif?raw=true" width="600px"/>
+<img src="https://github.com/julienshim/FriendFinder/blob/master/app/public/images/foodfriendfinder.gif?raw=true" width="600px"/>
 
 **Requirements**
 
