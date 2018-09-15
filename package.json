@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jerauld/FriendFinder.git"
+    "url": "git+https://github.com/julienshim/FriendFinder.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jerauld/FriendFinder/issues"
+    "url": "https://github.com/julienshim/FriendFinder/issues"
   },
-  "homepage": "https://github.com/jerauld/FriendFinder#readme",
+  "homepage": "https://github.com/julienshim/FriendFinder#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
